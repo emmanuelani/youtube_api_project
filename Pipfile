@@ -5,8 +5,15 @@ name = "pypi"
 
 [packages]
 pandas = "*"
+seaborn = "*"
+google-api-python-client = "*"
 
 [dev-packages]
+ipykernel = "*"
+black = "*"
 
 [requires]
 python_version = "3.11"
+
+[pipenv]
+allow_prereleases = true
